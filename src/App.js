@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="login-container">
-      <h1 className="title">VISURA🤖</h1>
+      <h1 className="title">V I S U R A</h1>
       <form className="login-form">
         <input
           type="text"
