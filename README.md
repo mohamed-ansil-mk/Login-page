@@ -1,4 +1,4 @@
-##🧠 Visura – React Static Login Page
+## 🧠 Visura – React Static Login Page
 
 A modern, responsive static login page built using React and React Router, featuring a sleek UI, background image, and interactive password toggle functionality.
 
