@@ -44,6 +44,38 @@ body {
   font-size: 14px;
 }
 
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 40px; /* Space for the toggle button */
+  box-sizing: border-box;
+}
+
+.toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  color: #555;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+  color: #4f46e5; /* violet color to match your login button */
+  transform: translateY(-50%) scale(1.2); /* subtle zoom-in effect */
+}
+
+
+
 .login-button {
   background: #4f46e5;
   color: white;
